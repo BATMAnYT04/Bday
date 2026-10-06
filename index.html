@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>For My Birthday Girl ❤️</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+</head>
+
+<body>
+   <audio id="birthdayMusic" autoplay loop>
+    <source src="music/birthday.mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="musicToggle" class="music-toggle" onclick="toggleMusic()">🔊 Music On</button>
+
+    <!-- Floating hearts -->
+    <div class="hearts"></div>
+
+    <!-- MUSIC -->
+    <audio id="music" loop>
+        <source src="music/birthday.mp3"
+                type="audio/mpeg">
+    </audio>
+
+
+    <!-- ================= WELCOME ================= -->
+
+    <section id="welcome" class="screen active">
+
+        <div class="welcome-box">
+
+            <p class="small-text">I have something special for you...</p>
+
+            <h1>
+                Hey<br>
+                <span>Birthday Girl ❤️</span>
+            </h1>
+
+            <p>
+                I made a little something just for you.
+            </p>
+
+            <button onclick="startExperience()">
+                ✨ Start
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= GIFTS ================= -->
+
+    <section id="gifts" class="screen">
+
+        <h1 class="title">🎁 Your Birthday Gifts</h1>
+
+        <p class="subtitle">
+            Open them one by one ❤️
+        </p>
+
+        <div class="gift-container">
+
+            <!-- GIFT 1 -->
+            <div class="gift" onclick="openGift(1)">
+                <div class="gift-icon">🎁</div>
+                <h2>Gift #1</h2>
+                <p>A Special Memory</p>
+            </div>
+
+
+            <!-- GIFT 2 -->
+            <div class="gift locked" id="gift2" onclick="openGift(2)">
+                <div class="gift-icon">🎁</div>
+                <h2>Gift #2</h2>
+                <p>Why I Love You</p>
+            </div>
+
+
+            <!-- GIFT 3 -->
+            <div class="gift locked" id="gift3" onclick="openGift(3)">
+                <div class="gift-icon">🎁</div>
+                <h2>Gift #3</h2>
+                <p>Our Memories</p>
+            </div>
+
+
+            <!-- GIFT 4 -->
+            <div class="gift locked" id="gift4" onclick="openGift(4)">
+                <div class="gift-icon">🎁</div>
+                <h2>Gift #4</h2>
+                <p>A Letter For You</p>
+            </div>
+
+
+            <!-- GIFT 5 -->
+            <div class="gift locked" id="gift5" onclick="openGift(5)">
+                <div class="gift-icon">🎁</div>
+                <h2>Gift #5</h2>
+                <p>The Final Surprise ❤️</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= POPUP ================= -->
+
+    <div id="popup" class="popup">
+
+        <div class="popup-content">
+
+            <button class="close" onclick="closePopup()">×</button>
+
+            <div id="popup-content"></div>
+
+            <button class="next-button"
+                    onclick="closePopup()">
+                ❤️ Continue
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= FINAL ================= -->
+
+    <section id="final" class="screen">
+
+        <div class="final-content">
+
+            <div class="cake">🎂</div>
+
+            <h1>
+                Happy Birthday
+            </h1>
+
+            <h2>
+                ISHUU ❤️
+            </h2>
+
+            <p>
+                Today is your day...
+            </p>
+
+            <p class="final-message">
+                I hope you always smile,
+                always stay happy,
+                and always know how incredibly special
+                you are to me.
+            </p>
+
+            <h3>
+                I Love You ❤️
+            </h3>
+
+            <div class="fireworks">
+                ✨ 🎆 ✨ 🎆 ✨
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
