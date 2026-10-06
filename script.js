@@ -76,7 +76,9 @@ function openGift(number) {
 
             <img
                 class="memory-photo"
-                src="start.jpeg"
+                src="https://batmanyt04.github.io/Bday/start.jpeg"
+                alt="Our memory ❤️"
+            >
             >
 
             <p>
@@ -179,17 +181,12 @@ function openGift(number) {
 
             <div class="photo-grid">
 
-                <img src="1.jpeg">
-
-                <img src="2.jpeg">
-
-                <img src="fav.jpeg">
-
-                <img src="us.jpeg">
-
-                <img src="us1.jpeg">
-
-                <img src="start.jpeg">
+                <img src="https://batmanyt04.github.io/Bday/1.jpeg">
+                <img src="https://batmanyt04.github.io/Bday/2.jpeg">
+                <img src="https://batmanyt04.github.io/Bday/fav.jpeg">
+                <img src="https://batmanyt04.github.io/Bday/us.jpeg">
+                <img src="https://batmanyt04.github.io/Bday/us1.jpeg">
+                  <img src="https://batmanyt04.github.io/Bday/start.jpeg">
 
             </div>
 
