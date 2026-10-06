@@ -76,7 +76,7 @@ function openGift(number) {
 
             <img
                 class="memory-photo"
-                src="photos/start.jpeg"
+                src="start.jpeg"
             >
 
             <p>
@@ -179,17 +179,17 @@ function openGift(number) {
 
             <div class="photo-grid">
 
-                <img src="photos/1.jpeg">
+                <img src="1.jpeg">
 
-                <img src="photos/2.jpeg">
+                <img src="2.jpeg">
 
-                <img src="photos/fav.jpeg">
+                <img src="fav.jpeg">
 
-                <img src="photos/us.jpeg">
+                <img src="us.jpeg">
 
-                <img src="photos/us1.jpeg">
+                <img src="us1.jpeg">
 
-                <img src="photos/start.jpeg">
+                <img src="start.jpeg">
 
             </div>
 
